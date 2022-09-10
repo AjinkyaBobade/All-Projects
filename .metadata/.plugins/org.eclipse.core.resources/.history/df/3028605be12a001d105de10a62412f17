@@ -1,0 +1,5 @@
+package com.BikakadIT.UserManagementApplication.repositories;
+
+public class CountryMasterRepository {
+
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.apache.log4j.Appender"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.ConsoleAppender"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.SimpleLayout"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.HTMLLayout"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.xml.XMLLayout"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Layout"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.PatternLayout"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="Log4J.Log4JDemo"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.FileAppender"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.spi.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="com.example.demo.controller.WelcomeController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+</qualifiedTypeNameHistroy>

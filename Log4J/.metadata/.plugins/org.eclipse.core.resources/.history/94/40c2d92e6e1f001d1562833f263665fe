@@ -1,0 +1,6 @@
+package com.BikaddIT;
+
+public class Test {
+
+	private static log=Logger.getLogger(Test.class);
+}

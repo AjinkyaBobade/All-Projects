@@ -1,0 +1,11 @@
+package com.BikakadIT.UserManagementApplication.repositories;
+
+import java.io.Serializable;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.BikakadIT.UserManagementApplication.entities.UserAccountEntity;
+
+public interface UserAccoutRepository extends JpaRepository<UserAccountEntity, Serializable>{
+
+}

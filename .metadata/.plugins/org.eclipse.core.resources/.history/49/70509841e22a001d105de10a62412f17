@@ -1,0 +1,11 @@
+package com.BikakadIT.UserManagementApplication.repositories;
+
+import java.io.Serializable;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.BikakadIT.UserManagementApplication.entities.StatesMasterEntity;
+
+public interface StatesMasterRepository extends JpaRepository<StatesMasterEntity, Serializable>{
+
+}

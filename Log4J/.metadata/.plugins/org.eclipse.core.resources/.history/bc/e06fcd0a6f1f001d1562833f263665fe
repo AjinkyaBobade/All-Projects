@@ -1,0 +1,26 @@
+package com.BikaddIT;
+
+import org.apache.log4j.Appender;
+import org.apache.log4j.ConsoleAppender;
+import org.apache.log4j.HTMLLayout;
+import org.apache.log4j.Layout;
+import org.apache.log4j.Logger;
+import org.apache.log4j.SimpleLayout;
+
+public class Test {
+
+	private static Logger log=Logger.getLogger(Test.class);
+	
+	public static void main(String[] args) {
+		//Layout layout=new SimpleLayout();
+		Layout layout=new HTMLLayout();
+		Appender app=new ConsoleAppender(layout);
+		log.addAppender(app);
+		log.debug("this id debug massage");
+		log.info("this is info massage");
+		log.warn("this is warning massage");
+		log.error("this is error massage");
+		log.fatal("this is fatal massage");
+	}
+
+}

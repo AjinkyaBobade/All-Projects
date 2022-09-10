@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="UserManagementApplication">
+        <property name="context-root" value="UserManagementApplication"/>
+        <property name="java-output-path" value="/UserManagementApplication/target/classes"/>
+    </wb-module>
+</project-modules>

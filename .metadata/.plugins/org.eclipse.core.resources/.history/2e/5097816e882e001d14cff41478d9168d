@@ -1,0 +1,43 @@
+package com.BikakadIT.UserManagementApplication.entities;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+
+import lombok.Data;
+
+@Entity
+@Table(name = "USER_ACCOUNT")
+@Data
+public class UserAccountEntity {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer userID;
+	
+	private String fname;
+	
+	private String lname;
+	
+	private String email;
+	
+	private long phoneno;
+	
+	private LocalDate dob;
+	
+	private String gender;
+	
+	private String Countryid;
+	
+	private String Stateid;
+	
+	private String Cityid;
+	
+	private String accstatus;
+}

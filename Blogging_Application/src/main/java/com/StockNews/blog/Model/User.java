@@ -1,0 +1,34 @@
+package com.StockNews.blog.Model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@NoArgsConstructor
+@Getter
+@Setter
+public class User {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	
+	@Column(name = "User_Name",nullable = false,length = 100)
+	private String name;
+	
+	@Column(name="User_Password",nullable = false,length = 30)
+	private String password;
+	
+	@Column(name = "User_About",nullable = false,length = 200)
+	private String about;
+	
+	
+
+}
